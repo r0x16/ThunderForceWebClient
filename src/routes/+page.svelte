@@ -1,2 +1,9 @@
-<h1>Welcome to SvelteKit</h1>
-<p>Visit <a href="https://kit.svelte.dev">kit.svelte.dev</a> to read the documentation</p>
+<div class="block" />
+<div class="columns layout has-text-light">
+	<div class="column">
+		<div class="box">I'm in a box.</div>
+	</div>
+	<div class="column">Second column</div>
+	<div class="column">Third column</div>
+	<div class="column">Fourth column</div>
+</div>

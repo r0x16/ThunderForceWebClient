@@ -1,12 +1,51 @@
 <!DOCTYPE html>
 <html lang="en">
-	<head>
-		<meta charset="utf-8" />
-		<link rel="icon" href="%sveltekit.assets%/favicon.png" />
-		<meta name="viewport" content="width=device-width" />
-		%sveltekit.head%
-	</head>
-	<body>
-		<div>%sveltekit.body%</div>
-	</body>
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="icon" href="%sveltekit.assets%/favicon.png" />
+    <link rel="stylesheet" href="%sveltekit.assets%/css/thunderforce.css">
+    %sveltekit.head%
+</head>
+
+<body>
+    <nav class="navbar is-light" role="navigation" aria-label="main navigation">
+        <div class="navbar-brand">
+            <a class="navbar-item" href="/">
+                <h1 class="title logo">
+                    <span class="icon">
+                        <i class="fa-solid fa-bolt-lightning"></i>
+                    </span>
+                    ThunderForce
+                </h1>
+            </a>
+
+            <a role="button" class="navbar-burger" aria-label="menu" aria-expanded="false"
+                data-target="navbarBasicExample">
+                <span aria-hidden="true"></span>
+                <span aria-hidden="true"></span>
+                <span aria-hidden="true"></span>
+            </a>
+        </div>
+
+        <div class="navbar-menu">
+            <div class="navbar-start">
+                <a class="navbar-item" href="/devices">
+                    Devices
+                </a>
+            </div>
+            <div class="navbar-end">
+                <div class="navbar-item">
+
+                </div>
+            </div>
+        </div>
+    </nav>
+    <div class="container is-fluid">
+        %sveltekit.body%
+    </div>
+</body>
+
 </html>

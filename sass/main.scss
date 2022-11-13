@@ -1,0 +1,13 @@
+// Elements
+h1.logo {
+  font-family: $logo-font;
+  color: $blue;
+}
+
+h1.logo .icon i {
+    color: $yellow;
+}
+
+.navbar {
+    margin-bottom: 0.75rem;
+}
