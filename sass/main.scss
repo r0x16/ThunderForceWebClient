@@ -6,6 +6,17 @@ h1.logo {
 
 h1.logo .icon i {
     color: $yellow;
+    font-size: 1.8em;
+    padding-left: 10px;
+    padding-bottom: 7px;
+}
+
+.navbar-brand a:hover {
+  text-decoration: none;
+}
+
+.navbar-brand:hover {
+  opacity: 1 !important;
 }
 
 .navbar {
